@@ -33,6 +33,8 @@ int main() {
     //     printf("\n%u, %d ", (p+i), *(p+i));
     // }
 
+
+    //declaring 2d array with dynamic memory allocation
     int size, row, col;
     printf("\nEnter row size: ");
     scanf("%d", &row);

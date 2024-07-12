@@ -1,3 +1,5 @@
+//this programme is to copy one image from one location to another location in binary file management 
+// where we used basic files things to copy it...
 #include<stdio.h>
 
 void main() {

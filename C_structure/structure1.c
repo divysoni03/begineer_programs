@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-struct Student {
+struct Student{
     int rollNo;
     char name[10];
     float marks;
@@ -14,6 +14,7 @@ int main() {
 
     printf("\nEnter name: ");
     scanf(" %[^\n]s", &s.name);
+    // scanf(" %[^\n]", &s.name);
 
     printf("\nEnter marks: ");
     scanf("%f", &s.marks);
@@ -43,7 +44,7 @@ struct name {
 
 i will have to create a structure variable in order to use this structure
 
-struct name var_b;  //way 2 of creating a structure
+struct name var_b;  //way 2 of creating a structure variables but its block scoped
 
 
 */

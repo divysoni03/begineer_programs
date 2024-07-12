@@ -1,5 +1,8 @@
 #include<stdio.h>
 
+//basically we typedef(it defines new datatypes) we defines new datatype of structure and,
+// named it student so now we don't have to write whole "struct student", we will just write "student" and,
+// we can access it easily.
 typedef struct {
     int rollNo;
     char name[10];

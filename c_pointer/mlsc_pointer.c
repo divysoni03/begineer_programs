@@ -29,7 +29,7 @@ int main() {
     // int a = 34, b = 12;
     // int *const ptr = &a;
 
-    // ptr = &a;
+    // ptr = &b; //can't change the values because of const pointer
     // *ptr = 45;
 
     // printf("\na = %d\tb = %d", *ptr, *ptr);

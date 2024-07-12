@@ -6,6 +6,7 @@ struct Student {
     float marks;
 };
 
+//methods for struct which starts from struct struct_name method_name() { //block of code } // don't write semicolon in methods it's only for struct it self
 struct Student scan() {
     struct Student student;
 
@@ -21,6 +22,8 @@ struct Student scan() {
     return student;
 }
 
+
+//passing the full struct so we can access all the elements
 void display(struct Student student) {
     printf("\nRollNo: %d", student.rollNo);
     printf("\nName: %s", student.name);
@@ -33,7 +36,7 @@ int main() {
     printf("\nEnter the no. of students: ");
     scanf("%d", &size);
 
-    struct Student s[size];
+    struct Student s[size]; // array of struct
 
     //scanning students
     for (int i = 0; i < size; i++) {
