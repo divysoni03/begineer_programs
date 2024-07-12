@@ -11,8 +11,15 @@ int main(){
     scanf("%[^\n]s",str1);
     scanf(" %[^\n]s",str2);
 
-    if (!strcmp(str1, str2)) printf("Both string are equal.");
-    else printf("Both strings are not same.");
+    // if (!strcmp(str1, str2)) printf("Both string are equal.");
+    // else printf("Both strings are not same.");
 
+    while(str1[length] != '\0') {
+        if(str2[length] != str1[length]){
+            printf("Both are not same!");
+            return 0;
+        }
+    }
+    printf("Both are same !");
     return 0;
 }
