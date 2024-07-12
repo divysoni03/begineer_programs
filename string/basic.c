@@ -3,7 +3,7 @@
 
 // int main()
 // {
-//     char str[100], str1[100];
+    // char str[100], str1[100];
     // int i;
     // {'a', 'f', 'g', 'h'} - array
     // "afgh"               - string
@@ -51,11 +51,11 @@
     // printf("\nString is: %s", strstr(str, "is"));
 
     // strtok() - Breaks string into a series of tokens using a given delimiter
-    // char *token = strtok(str, " "); // " " is the delimiter
-    // while(token != NULL)    // NULL is used to stop the search
-    // {
-        // printf("\n%s", token);
-        // token = strtok(NULL, " ");  // NULL is used to continue the search from the previous string
+    // char str[] = "this is a nice string";
+    // char token = strtok(str, " "); // " " is the delimiter
+    // while(token != NULL) {  // NULL is used to stop the search
+    //     printf("\n%s", token);
+    //     token = strtok(NULL, " ");  // NULL is used to continue the search from the previous string
     // }
 
     // Printing the string
