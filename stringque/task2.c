@@ -5,7 +5,7 @@
 
 int main(){
     char str[20];
-    int i,length=0;
+    int length=0;
     printf("\nEnter a string :");
     scanf("%[^\n]s",&str);
     while(str[length]!= '\0'){
